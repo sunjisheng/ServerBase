@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="CommonBase.h" />
+    <ClInclude Include="CommonDefine.h" />
+    <ClInclude Include="CommonType.h" />
+    <ClInclude Include="GlobalFunction.h" />
+    <ClInclude Include="Logger.h" />
+    <ClInclude Include="MemAlloc.h" />
+    <ClInclude Include="RefCount.h" />
+    <ClInclude Include="Singleton.h" />
+    <ClInclude Include="Array.h">
+      <Filter>container</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleQueue.h">
+      <Filter>container</Filter>
+    </ClInclude>
+    <ClInclude Include="HashMap.h">
+      <Filter>container</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>container</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>container</Filter>
+    </ClInclude>
+    <ClInclude Include="RecyclePool.h">
+      <Filter>container</Filter>
+    </ClInclude>
+    <ClInclude Include="TSQueue.h">
+      <Filter>container</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>container</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool.h">
+      <Filter>thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Mutex.h">
+      <Filter>thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Des.h">
+      <Filter>encrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeClock.h">
+      <Filter>time</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeEvent.h">
+      <Filter>time</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeScheduler.h">
+      <Filter>time</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>time</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>container</Filter>
+    </ClInclude>
+    <ClInclude Include="SkipList.h">
+      <Filter>container</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerList.h">
+      <Filter>time</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h" />
+    <ClInclude Include="Base64.h">
+      <Filter>encrypt</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CommonBase.cpp" />
+    <ClCompile Include="GlobalFunction.cpp" />
+    <ClCompile Include="Logger.cpp" />
+    <ClCompile Include="MemAlloc.cpp" />
+    <ClCompile Include="Thread.cpp">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Des.cpp">
+      <Filter>encrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5.cpp">
+      <Filter>encrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeClock.cpp">
+      <Filter>time</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>time</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerList.cpp">
+      <Filter>time</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp" />
+    <ClCompile Include="Base64.cpp">
+      <Filter>encrypt</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="container">
+      <UniqueIdentifier>{8c6c4b5d-a5dc-47d7-82f2-0014ac931a3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thread">
+      <UniqueIdentifier>{a6a197d8-023f-4df5-8c28-6b4febd32661}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="encrypt">
+      <UniqueIdentifier>{5932ccbc-d814-44f7-9cd4-fcda8c65babd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="time">
+      <UniqueIdentifier>{4c232f4b-0d8b-49e1-9051-ae012799cb13}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

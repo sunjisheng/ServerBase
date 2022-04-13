@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Fps.h" />
+    <ClInclude Include="Ini.h" />
+    <ClInclude Include="Peer.h" />
+    <ClInclude Include="ServerBaseDefine.h" />
+    <ClInclude Include="TcpServer.h" />
+    <ClInclude Include="HeartbeatMsg.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerConnectMsg.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="MySqlTask.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="MySqlManager.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="MySqlConnector.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultSet.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerBaseProtocol.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Ini.cpp" />
+    <ClCompile Include="Peer.cpp" />
+    <ClCompile Include="TcpServer.cpp" />
+    <ClCompile Include="MySqlManager.cpp">
+      <Filter>mysql</Filter>
+    </ClCompile>
+    <ClCompile Include="MySqlConnector.cpp">
+      <Filter>mysql</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="protocol">
+      <UniqueIdentifier>{c2d43a2c-66de-4cdf-b400-fa91125d9b09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mysql">
+      <UniqueIdentifier>{613fba52-4af1-4bc9-8e7d-9e75302566fa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
